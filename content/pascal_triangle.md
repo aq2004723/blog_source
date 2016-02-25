@@ -1,5 +1,5 @@
 Title: Pascal's Triangle 
-Catalog: 算法
+Category: 算法
 Tags: 算法,leetcode,python
 Date: 2015-04-13 19:30
 

@@ -33,9 +33,14 @@ DEFAULT_PAGINATION = 15
 
 THEME = "/home/coco/aq2004723/medius"
 
-from functools import partial
-JINJA_FILTERS = {
-    'sort_by_article_count': partial(
-        sorted,
-        key=lambda tags: len(tags[1]),
-        reverse=True)} # reversed for descending order
+MEDIUS_AUTHORS = {
+    '布仁': {
+        'description': """
+            pyhon和闹酱都萌的不要不要的 --by 九条可怜
+        """,
+        'cover': 'http://7xiate.com1.z0.glb.clouddn.com/d146ed202608066f262b91263a035a15.jpg&e=1456434284&token=ot3QUtCoWhvQahjayvSIjqFMjgEolYWvNbECX5cb:f9birSkyVZS0PKh43ZtUKlSZjEU',
+        'image': 'http://7xiate.com1.z0.glb.clouddn.com/1456430471245157.jpg&e=1456434228&token=ot3QUtCoWhvQahjayvSIjqFMjgEolYWvNbECX5cb:wyS0rNE2XQ7gaVuZp0yR8t945Rw',
+        'links': (('github', 'https://github.com/aq2004723'),
+                  ('weibo', 'http://weibo.com/u/1805754061')),
+    }
+}
