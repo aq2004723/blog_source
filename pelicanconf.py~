@@ -38,7 +38,7 @@ MEDIUS_AUTHORS = {
         'description': """
             pyhon和闹酱都萌的不要不要的 --by 九条可怜
         """,
-        'cover': 'http://7xiate.com1.z0.glb.clouddn.com/d146ed202608066f262b91263a035a15.jpg',
+        'cover': 'http://7xiate.com1.z0.glb.clouddn.com/d146ed202608066f262b91263a035a15.jpg?imageView2/1/w/1920/h/1380/interlace/0/q/40',
         'image': 'http://7xiate.com1.z0.glb.clouddn.com/1456430471245157.jpg?imageView2/2/w/128/h/128/interlace/0/q/100',
         'links': (('github', 'https://github.com/aq2004723'),
                   ('weibo', 'http://weibo.com/u/1805754061')),

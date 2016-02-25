@@ -53,3 +53,5 @@ MEDIUS_CATEGORIES = {
     }
 }
 
+DISQUS_SITENAME='hloli'
+
